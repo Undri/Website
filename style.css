@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css?family=Kodchasan');
+
+* {
+	font-family: 'Kodchasan', sans-serif;
+	line-height: 1.4em;
+}
+
+#youAreHere {
+	color: white;
+}
+
+#page {
+	max-width: 940px;
+	min-width: 720px;
+	margin: 10px auto 10px auto;
+	padding: 20px;
+	border: 4px double #000;
+	background-color:#57A5FE; 
+}
+
+.main {
+	border: 2px solid #0051A1;
+	margin: auto auto auto auto;
+	padding: 20px;
+	width: 500px;
+}
+
+.info {
+	border: 2px solid #0051A1;
+}
+
+.divMenu {
+	margin-bottom: 30px;
+	background-color: #017FFE;
+	padding: 2px;
+	
+}
+
+.divMenu a {
+	font-family: system-ui;
+	font-weight: bold;
+	font-size: 18pt;
+	color: #017FFE;
+}
+
+.projects a {
+	text-decoration: none;
+}
+
+.line {
+	letter-spacing: 0.1em;
+	text-align: center;
+}
+
+a:hover {
+	background-color: #87C3FE;
+}
+
+a:active {
+	background-color: #A3CDF7;
+}
+
+
+#sidebar {
+	margin: 20px auto 20px auto;
+}
+
+a {
+	color: black;
+	text-decoration: none;
+}
+
+td {
+	padding: 5px;
+	background-color: #A3CDF7;
+}
+	
+
+table {
+	width:700px;
+	padding: 15px;
+	margin: 0px auto 0px auto;
+	text-align: center;
+}
+
+h1 {
+	background-color: #A3CDF7;
+}
+<link href="style.css" type="text/css" rel="stylesheet">

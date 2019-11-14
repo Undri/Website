@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>JavaScript</title>
+</head>
+<style type="text/css"></style>
+<body>
+	<script type="text/javascript">
+		
+		var a = prompt("Side A: ");
+		var b = prompt("Side B: ");
+		var c = prompt("Side C: ");
+
+		var m = prompt("Door width:");
+		var n = prompt("Door height:");
+
+		if((a<=n && b<=m) ||
+			(b<=n && a<=m) ||
+			(c<=n && a<=m) ||
+			(a<=n && c<=m)) {
+			alert("The box fits");
+		} else {
+			alert("The box doesn't fit");
+		}
+
+	</script>
+</body>
+</html>
